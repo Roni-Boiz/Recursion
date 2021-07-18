@@ -30,12 +30,12 @@ object recursion {
         case 2 => print("Prime Numbers below "+num+ " = ")
                   primeSeq(num)
                   println("\n")
-        case 3 => println("Sum of Natural Numbers from 1 to "+num+" = " + sum(num) + "\n")//hari
+        case 3 => println("Sum of Natural Numbers from 1 to "+num+" = " + sum(num) + "\n")
         case 4 => println("Number "+num+ " is an Even Number : " + isEven(num) + "\n")
-        case 5 => println("Sum of Even Numbers less than "+num+" = "+evenSum(2,num) + "\n")//hari
+        case 5 => println("Sum of Even Numbers less than "+num+" = "+evenSum(2,num) + "\n")
         case 6 => print("First "+num+" Fibonacci Numbers = ")
                   fibonacciSeq(num)
-                  println("\n")//hari
+                  println("\n")
         case 7 => println("Exit")
         case _ => println("Invalid Input\n")
       }
